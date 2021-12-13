@@ -1,0 +1,198 @@
+.saleContent__item
+  height: 500px
+  margin-right: 13px
+  position: relative
+
+
+.saleContent__image
+  width: 300px
+  height: 400px
+  object-fit: cover
+  object-position: center
+
+.saleContent__image-link:before
+  content: ""
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 100px
+  background: rgba(56, 56, 56, 0.4)
+  box-shadow: inset 0 4px 70px rgba(56, 56, 56, 0.5)
+  opacity: 0
+
+.saleContent__image-link:hover:before
+  opacity: 1
+
+.saleContent__image-link:hover ~ .saleContent__button
+  opacity: 1
+
+.saleContent__button:hover
+  opacity: 1
+
+.saleContent__wishlist
+  width: 27px
+  height: 25px
+  top: 12px
+  right: 12px
+  position: absolute
+  background-color: #ffffff
+  mask-image: url("../svg/wishlist-icon.svg")
+  cursor: pointer
+
+.saleContent__wishlistNew
+  width: 27px
+  height: 25px
+  top: 12px
+  right: 12px
+  position: absolute
+  background-color: red
+  mask-image: url("../svg/wishlist-icon.svg")
+  cursor: pointer
+
+.saleContent__button
+  font: 18px Roboto, sans-serif
+  line-height: 40px
+  width: 170px
+  height: 40px
+  border-radius: 48px
+  top: 40%
+  left: 50%
+  transform: translate(-50%, -50%)
+  position: absolute
+  cursor: pointer
+  opacity: 0
+  z-index: 3
+
+.saleContent__rectangle
+  width: 45px
+  height: 25px
+  background-color: red
+  bottom: 100px
+  left: 0
+  position: absolute
+  z-index: 2
+
+.saleContent__discount
+  font: 14px Roboto, sans-serif
+  font-style: normal
+  font-weight: 700
+  line-height: 40px
+  color: #FFFFFF
+  top: -22px
+  left: 5px
+  position: absolute
+
+.saleContent__title
+  font: 14px Roboto, sans-serif
+  font-style: normal
+  font-weight: normal
+  line-height: 40px
+  text-decoration: none
+
+.saleContent__price
+  font: 18px Roboto, sans-serif
+  font-style: normal
+  font-weight: normal
+  line-height: 40px
+  text-decoration-line: line-through
+  left: 0
+  bottom: 20px
+  position: absolute
+
+.saleContent__perPrice
+  font: 20px Roboto, sans-serif
+  font-style: normal
+  font-weight: normal
+  line-height: 40px
+  color: #D7302D
+  left: 75px
+  bottom: 30px
+  position: absolute
+
+@media only screen and (max-width: 576px)
+  .saleContent__item
+    width: 170px
+    height: 300px
+    margin-right: 3px
+    margin-top: 50px
+    position: relative
+
+
+  .saleContent__image
+    width: 150px
+    height: 250px
+    object-fit: cover
+    object-position: center
+
+  .saleContent__button
+    font: 12px Roboto, sans-serif
+    width: 100px
+    height: 40px
+    top: 40%
+    left: 42%
+
+  .saleContent__image-link:before
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 20px
+    bottom: 50px
+    background: rgba(56, 56, 56, 0.4)
+    box-shadow: inset 0 4px 70px rgba(56, 56, 56, 0.5)
+    opacity: 0
+
+
+  .saleContent__image-link:hover:before
+    opacity: 1
+
+
+  .saleContent__image-link:hover ~ .saleContent__button
+    opacity: 1
+
+
+  .saleContent__button:hover
+    opacity: 1
+
+
+  .saleContent__wishlist
+    top: 8px
+    right: 35px
+
+  .saleContent__wishlistNew
+    top: 8px
+    right: 35px
+
+
+  .saleContent__rectangle
+    width: 45px
+    height: 25px
+    background-color: red
+    bottom: 50px
+    left: 0
+    position: absolute
+    z-index: 999
+
+
+  .saleContent__title
+    font: 11px Roboto, sans-serif
+    line-height: 40px
+    text-decoration: none
+
+
+  .saleContent__price
+    font: 14px Roboto, sans-serif
+    line-height: 40px
+    text-decoration-line: line-through
+    left: 0
+    bottom: -25px
+    position: absolute
+
+  .saleContent__perPrice
+    font: 15px Roboto, sans-serif
+    line-height: 40px
+    color: #D7302D
+    left: 75px
+    bottom: -25px
+    position: absolute

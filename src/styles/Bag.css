@@ -1,0 +1,174 @@
+.bag__section {
+    padding: 40px 450px 120px;
+}
+
+.bag__title {
+    font: 20px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.bag__quantity {
+    font: 12px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.bag__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.bag__descrContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.bag__image {
+    width: 160px;
+    height: 230px;
+}
+
+.bag__itemName {
+    font: 16px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bag__text {
+    font: 13px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.bag__selectContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+select {
+    width: 100px;
+    border: none;
+}
+
+.bag__selectNumber {
+    width: 45px;
+}
+
+option {
+    font: 12px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bag__change {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bag__removeContainer {
+    margin: 40px 0 30px;
+    text-align: right;
+}
+
+.bag__cross {
+    width: 12px;
+    height: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.bag__totalContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bag__total {
+    font: 20px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.bag__button {
+    width: 240px;
+    height: 50px;
+    background-color: #000F08;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.bag__icon {
+    width: 40px;
+    height: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.bag__iconContainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bag__message {
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.bag__back {
+    color: black;
+    text-decoration: underline;
+    left: 10px;
+    position: absolute;
+}
+
+.bag__arrow {
+    width: 40px;
+    height: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+.toBag__button {
+    width: 140px;
+    height: 40px;
+    background-color: #000F08;
+    color: #FFFFFF;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+/*mobile view*/
+
+@media only screen and (max-width: 576px) {
+    .bag__section {
+        padding: 40px 10px 120px;
+    }
+
+    .bag__back {
+        display: none;
+    }
+
+}

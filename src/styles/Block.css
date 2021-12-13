@@ -1,0 +1,11 @@
+.block__title {
+    text-align: center;
+}
+
+/*mobile view*/
+
+@media only screen and (max-width: 576px) {
+    .block__title {
+        font: 20px Roboto, sans-serif;
+    }
+}

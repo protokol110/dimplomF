@@ -1,0 +1,107 @@
+.account__section {
+    width: 500px;
+    height: 600px;
+    padding: 50px;
+    background-color: #FFFFFF;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+}
+
+.account__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.account__title {
+    font: 16px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.account__close {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.account__form {
+    margin-top: 50px;
+}
+
+.account__input {
+    border: none;
+    outline: none;
+    width: 450px;
+    margin: 30px 23px 0;
+}
+
+.account__error {
+    color: red;
+    font: 14px Roboto, sans-serif;
+    margin-left: 25px;
+    position: absolute;
+}
+
+.account__hr {
+    width: 450px;
+    height: 2px;
+    color: #D8D8D8;
+    background-color: #D8D8D8;
+    border: none;
+}
+
+.account__checkboxContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.account__checkboxBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.account__checkbox {
+    width: 16px;
+    height: 16px;
+}
+
+.account__text {
+    font: 12px Helvetica Neue LT Std, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.account__button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    width: 240px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.account__href {
+    margin-right: 300px;
+}
+
+.color_gray {
+    color: #8C8C8C;
+}
+
+.text-decoration {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
